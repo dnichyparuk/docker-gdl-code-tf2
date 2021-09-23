@@ -73,7 +73,7 @@ RUN echo "auth requisite pam_deny.so" >> /etc/pam.d/su && \
     fix-permissions "${CONDA_DIR}"
 
 USER ${NB_UID}
-ARG PYTHON_VERSION=3.8
+ARG PYTHON_VERSION=3.7
 # default
 
 # Setup work directory for backward-compatibility
