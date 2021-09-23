@@ -1,8 +1,8 @@
 version: '3.5'
 services:
-    gdlcode:
-        image: dnichyparuk/docker-gdl-code:latest
-        container_name: gdl-code
+    gdlcode2:
+        image: dnichyparuk/docker-gdl-code-tf2:latest
+        container_name: gdl-code-tf2
         volumes:
             - /var/run/docker.sock:/var/run/docker.sock
             - /etc/localtime:/etc/localtime:ro
